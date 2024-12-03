@@ -10,6 +10,8 @@ Dalam recursive query, sebuah DNS resolver meminta informasi kepada server DNS d
 Dalam iterative query, resolver meminta informasi ke server DNS, tetapi server DNS hanya memberikan informasi terbaik yang dimilikinya, seperti alamat server DNS berikutnya yang lebih relevan. Resolver kemudian mengulangi permintaan ini ke server DNS lain hingga menemukan jawaban akhir.
 
 ### Alur Kerja DNS 
+![Alur kerja DNS](assets/interaction-of-the-various-DNS-Servers.png)
+
 Proses DNS:
 1. Pengiriman DNS Query: Host cse.nyu.edu mengirimkan pesan query DNS ke server DNS lokal dns.nyu.edu untuk mencari alamat IP dari hostname gaia.cs.umass.edu.
 2. Pengiriman ke Root DNS Server: Server DNS lokal meneruskan query tersebut ke root DNS server.
