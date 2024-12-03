@@ -6,12 +6,6 @@
 
 `client.c` - client
 
-### UDP Socket
-![The connect process of UDP Socket]("images/UDP_Socket.png")
-
-### TCP Socket
-![The connect process of TCP Socket]("images/TCP_Socket.png")
-
 ### Apa Itu Socket Programming?
 Socket programming adalah teknik pemrograman untuk memungkinkan komunikasi antar perangkat di jaringan melalui koneksi soket. Soket bertindak sebagai titik akhir (endpoint) untuk pengiriman atau penerimaan data.
 
@@ -26,7 +20,6 @@ Konsep Utama dalam Socket Programming
 3. Alamat dan Port:
 - Setiap koneksi ditentukan oleh kombinasi alamat IP dan port.
 - Dalam kasus ini, port 5002 adalah port yang digunakan untuk komunikasi.
-
 ### Alur Dasar Socket Programming (Server dan Client)
 Server:
 1. Buat Socket: Gunakan fungsi socket() untuk membuat soket.
@@ -46,3 +39,13 @@ Poin Penting:
 1. Pastikan port 5002 tidak digunakan oleh aplikasi lain.
 2. Jika ingin berkomunikasi antar perangkat, pastikan firewall atau izin jaringan tidak memblokir koneksi.
 3. Untuk komunikasi lebih kompleks, gunakan multithreading atau asynchronous I/O.
+
+### Alur Kerja UDP Socket
+![The connect process of UDP Socket](assets/connect-udp-socket.png)
+
+### Alur Kerja TCP Socket
+![The connect process of TCP Socket](assets/connect-tcp-socket.png)
+
+
+
+
